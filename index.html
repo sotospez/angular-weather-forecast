@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>angular-weather-forecast</title>
+    <meta charset="utf-8">
+    <meta name="description" content="angular js weather directive for weather">
+    <meta name="author" content="sotos.gr">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body style="text-align: center;background: #b2b2b2;color:#f2f2f2;font-family: 'Open Sans', sans-serif">
+<h1>Angular Weather Forecast Demo</h1>
+<p>angular directive demo for weather with
+    <a href="https://developer.forecast.io/" target="_blank" >developer.forecast.io</a> and
+    <a href="http://darkskyapp.github.io/skycons/" target="_blank">Skycons</a>
+    <p style="font-style:italic">Created by sotiris pezouvanis - <a href="http://sotos.gr" >sotos.gr</a></p>
+    <p><a href="js/weather.js">Download</a> - <a href="https://github.com/sotospez/angular-weather-forecast">github</a></p>
+    <p><pre>use	&#60;weather location="36.453153,28.2092523" color="#f2f2f2" apikey="yourapikey"&gt; &#60;/weather&gt;	 </pre></p>
+
+</p>
+<h2>Rhodes - Greece</h2>
+<weather location="36.453153,28.2092523" color="#f2f2f2" apikey="9612d8e6f25fae242fe463bbd22afb49"></weather>
+<h2>Salakos - Rhodes - Greece</h2>
+<weather location="36.288831,27.9434913" color="#c2c2c2" apikey="9612d8e6f25fae242fe463bbd22afb49"></weather>
+<h2>Lyon, KS,</h2>
+<weather location="39.619328, -100.395696" color="#555555" apikey="9612d8e6f25fae242fe463bbd22afb49"></weather>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+<script src="js/skycons.js"></script>
+<script src="js/app.js"></script>
+<script src="js/weather.js"></script>
+</body>
+</html>
